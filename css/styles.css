@@ -92,6 +92,14 @@ ul {
   margin-right: auto;
 }
 
+.button {
+  cursor: pointer;
+  border: 2px solid var(--color-white);
+  border-radius: 24px;
+  padding: 7px 31px 9px 30px;
+  color: var(--color-white);
+  background-color: transparent;
+}
 
 /* HEADER */
 
@@ -101,7 +109,7 @@ ul {
   background-color: var(--color-bg);
 }
 
-.header__container{
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -117,17 +125,17 @@ ul {
   display: block;
 }
 
-.header__wrapper{
+.header__wrapper {
   display: flex;
   width: 100%;
 }
 
-.header__wrapper a{
+.header__wrapper a {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
   color: var(--color-white);
-  }
+}
 
 .sitenav {
   display: flex;
@@ -147,16 +155,16 @@ ul {
   margin-right: 40px;
 }
 
+.sitenav__link {
+  color: var(--color-white);
+}
+
 .sitenav__link:hover {
   color: var(--color-orange);
 }
 
 .header___link {
   margin-left: auto;
-  border: 2px solid var(--color-white);
-  border-radius: 24px;
-  padding: 7px 31px 9px 30px;
-  color: var(--color-white);
 }
 
 .header___link:hover {
@@ -165,7 +173,7 @@ ul {
 }
 
 /* MAIN */
-.main{
+.main {
   flex-grow: 1;
 }
 
@@ -176,7 +184,7 @@ ul {
   background-color: var(--color-bg);
 }
 
-.hero__container{
+.hero__container {
   display: flex;
   padding-bottom: 250px;
 }
@@ -190,6 +198,7 @@ ul {
   color: var(--color-white);
   margin-right: 30px;
 }
+
 .hero__title-orange {
   color: var(--color-orange);
 }
@@ -217,8 +226,8 @@ ul {
 
 /* ARTICLES */
 .articles {
-background: url(../img/hero-circle-icon.svg) no-repeat;
-background-position: right bottom;
+  background: url(../img/hero-circle-icon.svg) no-repeat;
+  background-position: right bottom;
   background-color: var(--color-dark-green-bg);
 
 }
@@ -372,9 +381,7 @@ background-position: right bottom;
 
 .cta__link {
   margin-left: auto;
-  padding: 7px 30px 9px;
   border: 2px solid var(--color-dark-green-bg);
-  border-radius: 24px;
   color: var(--color-dark-green-bg);
   font-weight: 600;
   font-size: 18px;
@@ -430,23 +437,23 @@ background-position: right bottom;
   text-align: right;
 }
 
-.footer__networks-wrapper{
-display: flex;
-align-items: center;
-justify-content: flex-end;
+.footer__networks-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .footer__networks-link {
-display: block;
+  display: block;
 }
 
-.footer__networks-link:not(:last-child){
+.footer__networks-link:not(:last-child) {
   margin-right: 16px;
 }
 
-.footer__networks-icon:hover path{
-fill: var(--color-orange);
-transition: 0.3s ease;
+.footer__networks-icon:hover path {
+  fill: var(--color-orange);
+  transition: 0.3s ease;
 }
 
 .footer__networks-copyright {
